@@ -1,0 +1,31 @@
+*.main {
+  position: relative;
+  background-color: antiquewhite;
+  text-align: center;
+}
+.design {
+  color: black;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator {
+  color: black;
+
+  font-size: 476px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 300%;
+}
+img {
+  position: absolute;
+  bottom: -2%;
+  right: -4%;
+}
+.creator-box {
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+}
+p {
+}

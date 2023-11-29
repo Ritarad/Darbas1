@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: white;
+}
+.card {
+  margin: 3rem;
+  background-color: beige;
+  width: 276px;
+  box-shadow: none;
+  border: 1px solid white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.discription {
+  background-color: azure;
+}
+.img {
+  background-image: url(https://www.figma.com/file/s5FaqKpwAvRt5wqoKecMhZ/image/ea5ad9b84437c31c90bf5fcdb26cc54afe0f8d45);
+  background-size: cover;
+  width: 276px;
+  height: 176px;
+}
+.calendar {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+  box-shadow: 0px;
+}
+.day {
+  font-size: 1.3rem;
+}
+.month {
+  font-size: 0.7rem;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}

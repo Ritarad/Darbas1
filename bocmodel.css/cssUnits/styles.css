@@ -1,0 +1,26 @@
+header {
+  background-color: blueviolet;
+  color: aquamarine;
+  padding: 3rem;
+}
+
+a {
+  color: white;
+  font-size: 30px;
+  margin: 2rem;
+  text-decoration-skip: none;
+}
+.Maindiv {
+  padding: 4rem 1rem;
+  background-image: url(https://th.bing.com/th/id/OIP.zS-iRYtn1PNGFRVEoEhEngHaJQ?rs=1&pid=ImgDetMain);
+  background-size: cover;
+}
+p {
+  color: chocolate;
+  font-size: 25px;
+}
+main {
+  border: 1px solid;
+  margin: 0% 3rem;
+  border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+body {
+  background-color: blueviolet;
+}
+div {
+  width: 200px;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin: 30px auto;
+}

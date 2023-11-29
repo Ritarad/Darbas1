@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+.bendrai {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: calc((100vh - 140px) / 2) 0;
+}
+.pirmas {
+  background: #fff;
+}
+.antras {
+  background: #51cb65;
+}
+.tracias {
+  background: #816ef5;
+}
+.ketvirtas {
+  background: #ea7b7b;
+}
+.penktas {
+  background: #d9d9d9;
+  color: #ea7b7b;
+}
+h1 {
+  font-size: 128px;
+}
+a {
+  border-radius: 12px;
+  border: 2px solid #f17965;
+}
+.linkas {
+  position: fixed;
+  bottom: 5rem;
+}
+button {
+  border-radius: 100%;
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}
