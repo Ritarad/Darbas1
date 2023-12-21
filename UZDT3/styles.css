@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat;
+  background: #d4f1e6;
+  padding: 2rem;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 4500;
+  margin-bottom: 3rem;
+}
+.containerImg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  height: 7rem;
+}
+.img {
+  height: 7rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img1,
+.img4 {
+  flex-grow: 1;
+}
+.img2,
+.img3 {
+  flex-grow: ;
+}

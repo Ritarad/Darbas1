@@ -1,0 +1,47 @@
+/* ============== Bendriniai stiliai ============ */
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+/* ================ Pradinio puslapio stiliai ================ */
+/* ================Navigacijos  stiliai ================ */
+.navbar .navbar-brand {
+  color: #404445;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #43c45f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #43c45f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.haver {
+  color: #43c45f;
+}
+
+/* Header stiliai*/
+.home-page header {
+  background-image: url(./IMG/Rectangle\ 1.jpg);
+}
+
+/* ...... stiliai*/
+/* ================= Bendriniai stiliai ============= */
+/* ================ Footer stiliai ================ *//*# sourceMappingURL=styles.css.map */

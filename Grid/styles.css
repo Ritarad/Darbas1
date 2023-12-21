@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  padding: 1rem;
+  color: white;
+}
+.a {
+  background-color: aqua;
+}
+.b {
+  background-color: orange;
+}
+.c {
+  background-color: chartreuse;
+}
+.d {
+  background-color: blueviolet;
+}
+.e {
+  background-color: rosybrown;
+}
+.f {
+  background-color: blue;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
