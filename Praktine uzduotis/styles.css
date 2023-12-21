@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+/* general styles */
+
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGAC */
+
+nav {
+  background: var(--White, #fff);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 44px 72px;
+  box-sizing: border-box;
+  color: var(--text-citation-and-H2, #333);
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 48px;
+}
+nav a {
+  text-decoration: none;
+  color: #333333;
+}
+nav ul .active a {
+  color: var(--White, #fff);
+
+  /* Button */
+  font-family: Hind Madurai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 4px;
+  background: var(--Primary-100, #1289af);
+}
+nav .li a h1 h2 h3 h4 h5 h6 {
+  color: var(--text-citation-and-H2, #333);
+
+  /* Link */
+  font-family: Hind Madurai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+/* HEADER */
+header {
+  display: flex;
+  background-size: cover;
+  background: url(./css/Rectangle\ 71.png);
+}
+header p {
+  color: white;
+  font-size: 16px;
+  font-family: Hind Madurai;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+.div {
+  justify-content: center;
+  align-items: center;
+}
+.containar {
+  color: white;
+}
+h1 {
+  color: var(--White, #fff);
+
+  font-family: Hind Madurai;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 52px;
+  letter-spacing: -2.8px;
+  color: white;
+  padding: 24;
+  margin-bottom: 1rem;
+}
+.p {
+  font-family: Hind Madurai;
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+col {
+  display: flex;
+  justify-content: center;
+  grid-row-start: auto;
+  grid-column: span;
+}
+svg {
+  border-radius: 4px;
+  background: var(--Primary-100, #1289af);
+  box-shadow: 0px 2px 10px 0px rgba(54, 1, 103, 0.3);
+  justify-content: center;
+}
+header a {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: auto;
+  align-items: center;
+  gap: 4px;
+}
+
+/* citation */
+.citation p {
+  text-align: left;
+  background: #fff;
+  justify-content: auto;
+  align-items: auto;
+  color: var(--text-paragraph, #666);
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.image {
+  text-align: center;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+  text-align: center;
+  width: 770px;
+  height: 424px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+h2 {
+  text-align: left;
+  color: var(--text-paragraph, #666);
+
+  /* Paragraph */
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.div p {
+  flex-direction: column;
+  text-align: center;
+  width: 378px;
+  height: auto;
+  padding: 64px;
+  color: var(--text-citation-and-H2, #333);
+
+  font-family: Hind Madurai;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  /* }
+.p2 {
+  text-align: center;
+  width: 770px;
+  height: auto;
+  color: var(--text-paragraph, #666);
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; 177.778% */
+}
+.image2 {
+  text-align: center;
+  width: 200px;
+  height: 433.269px;
+}
+.citation div {
+  background-size: auto;
+  text-align: center;
+  color: var(--text-citation-and-H2, #333);
+  /* text-align: center; */
+  font-family: Hind Madurai;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 40px;
+}
+.pastraipa p {
+  flex-direction: column;
+  color: var(--text-citation-and-H2, #333);
+
+  /* Citation */
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px;
+}
+.col-lg-6 img {
+  display: flex;
+  margin: 32.23px;
+}
+
+.col-lg-6 h3 {
+  background: none;
+  grid-column: span;
+  grid-row: 1/6;
+  width: auto;
+  color: #666666;
+  font-size: 18px;
+  font-family: Hind Madurai;
+  font-weight: 200;
+  line-height: 32px;
+  word-wrap: break-word;
+  justify-content: center;
+}
+.card {
+  border-radius: 0%;
+  box-sizing: border-box;
+  display: flex;
+  margin: 1;
+  width: 600px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  column-gap: normal;
+  text-align: left;
+  display: contents;
+  padding: 1rem;
+}
+.card h1 {
+  text-align: center;
+  justify-content: center;
+}
+.card .containar3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: white solid 2px;
+  margin: 1rem;
+}
+/* .main {
+  padding: 4rem;
+  height: 100vh;
+} */
+.img {
+  border: 60px;
+  object-fit: cover;
+  height: 120px;
+  width: 120px;
+}
+.line {
+  margin: 1rem;
+  background-color: white;
+  height: 2px;
+  width: 32px;
+}
